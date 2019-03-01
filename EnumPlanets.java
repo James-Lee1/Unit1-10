@@ -10,6 +10,7 @@
 
 public enum EnumPlanets
 {
+    // Stores all the planets, and the number of planets between them and the sun
     MERCURY(0),
     VENUS(1),
     EARTH(2),
@@ -27,6 +28,7 @@ public enum EnumPlanets
 
     public static void main(String[] arg)
     {
+        // Displays the planets and their distance from sun
         for(EnumPlanets planet: EnumPlanets.values())
         {
             System.out.println(planet+" is " + planet.position + " planet(s) away from the sun.");
